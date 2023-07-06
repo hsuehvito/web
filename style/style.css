@@ -6,8 +6,8 @@
 }
 
 h1, p {
-  color: aqua;
-  background-color: rgba(0, 0, 0, 0.993);
+  color: #CDB4DB;
+  background-color: #FAEDCD;
 }
 
 .name {
@@ -34,11 +34,11 @@ div.container {
   align-items: center;
 }
 div.container div.box1 {
-  background-color: red;
+  background-color: #606738;
 }
 div.container div.box2 {
-  background-color: yellow;
+  background-color: #283618;
 }
 div.container div.box3 {
-  background-color: blue;
+  background-color: #FEFAE0;
 }/*# sourceMappingURL=style.css.map */
