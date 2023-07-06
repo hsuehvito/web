@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap');
+
+*{
+    margin : 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+
+
+h1,p{
+    color: aqua;
+    background-color: rgba(0, 0, 0, 0.993);
+}
+.name{
+    color: #8f6a6a;
+}
+table,
+tr,
+th,
+td{
+    border: 1px solid #522203;
+    border-spacing: 0;
+}
+th{
+    color: #000;
+    background-color: azure;
+}
+div.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    div.box1{
+        background-color: red;
+    }
+    div.box2{
+        background-color: yellow;
+    }
+    div.box3{
+        background-color: blue;
+    }
+}
