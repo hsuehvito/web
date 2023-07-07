@@ -5,13 +5,27 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 50;
+}
+
+div {
+  height: 15px;
+}
+
+div {
+  width: 50vw;
+  height: 30vh;
+}
+
 h1, p {
-  color: #CDB4DB;
-  background-color: #FAEDCD;
+  color: aqua;
+  background-color: rgba(0, 0, 0, 0.993);
 }
 
 .name {
-  color: #8f6a6a;
+  color: white;
 }
 
 table,
@@ -29,9 +43,7 @@ th {
 
 div.container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  
 }
 div.container div.box1 {
   background-color: #606738;
